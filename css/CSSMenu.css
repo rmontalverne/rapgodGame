@@ -1,0 +1,192 @@
+/* Borda na tabela */
+
+tr,
+th,
+td,
+table {
+    border: solid 1px black;
+}
+
+.divTwitter {
+margin-left: : 50%;
+top: 67.5%;
+left: 50%;
+position: absolute;
+
+}
+
+.formatoTable {
+    margin-top: 50%;
+    height: 50%;
+    position: absolute;
+}
+.divGame {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    background-color: black;
+    background-size: cover;
+    background-image: url("../imgs/t2.jpg");
+}
+.divImagem {
+    margin-top: 10%;
+    margin-left: 46%;
+}
+.divTitulo {
+    margin: auto;
+    position: absolute;
+    /*    background-image: url("../imgs/titulo.png");
+*/
+}
+#tituloImg {
+    margin-left: -27%;
+    width: 70%;
+    max-width: 100%;
+    max-height: 100%;
+}
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.button {
+    background-color: #008CBA;
+    /* Green */
+    
+    border: none;
+    color: white;
+    padding: 1.09vw 2.34vw;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    margin-top: 3%;
+}
+#botaoComoJogar {
+    margin-left: -2%;
+}
+#botaoIntegrantes {
+    margin-left: -2%;
+}
+#botaoVoltar {
+    top: 50%;
+    left: 47%;
+    position: absolute;
+}
+.botaoAnterior {
+    background-color: #008CBA;
+    /* Green */
+    
+    border: none;
+    color: white;
+    padding: 1.09vw 2.34vw;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    margin-top: 3%;
+    top: 50%;
+    left: 40%;
+    position: absolute;
+}
+.botaoProximo {
+    background-color: #008CBA;
+    /* Green */
+    
+    border: none;
+    color: white;
+    padding: 1.09vw 2.34vw;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    margin-top: 3%;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+}
+#versao {
+    top: 90%;
+    left: 90%;
+    position: absolute;
+}
+.integrantes {
+    top: 30%;
+    left: 38%;
+    position: absolute;
+}
+/* Tirar as bordas da página */
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #faebd7;
+}
+/* Tela de vitoria ou derrota */
+
+.divBackground {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    background-color: black;
+    background-size: cover;
+    background-image: url("../imgs/background.jpg");
+}
+.divVitoriaDerrota {
+    width: 50%;
+    height: 80%;
+    top: 10%;
+    left: 25%;
+    position: absolute;
+}
+#imagemPontuacao {
+    top: -10%;
+    left: 5%;
+    position: absolute;
+}
+#imagemVitoriaDerrota {
+    top: 20%;
+    left: 23%;
+    position: relative;
+}
+.botaoMenuVitoriaDerrota {
+    background-color: #008CBA;
+    /* Green */
+    
+    border: none;
+    color: white;
+    padding: 1.09vw 2.34vw;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    margin-top: 3%;
+    position: fixed;
+    top: 60%;
+    left: 40%;
+}
+#moralJogadorPontuacao {
+    left: 150%;
+    position: relative;
+    font-size: 3em;
+    color: green;
+}
+#moralIAPontuacao {
+    position: absolute;
+    left: 150%;
+    top: 130%;
+    font-size: 3em;
+    color: red;
+}
+#pontuacao {
+    top: 30%;
+    left: 50%;
+    position: absolute;
+}
+#botaoCompartilhar {
+    top: 65%;
+    left: 35%;
+}

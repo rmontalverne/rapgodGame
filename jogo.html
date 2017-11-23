@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<!-- HTML5 -->
+
+<html lang="pt-BR">
+<!-- lang="pt-br" -->
+
+<head>
+    <meta charset="utf-8">
+    <!-- ENCODE -->
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="css/CSSJogo.css">
+    <script type="text/javascript" src="js/logicaRodadas.js"></script>
+    <script type="text/javascript" src="js/logicaFunc.js"></script>
+    <script type="text/javascript" src="js/logicaAnim.js"></script>
+    <script type="text/javascript" src="json/cartas.json" charset="utf-8">
+    </script>
+
+</head>
+
+<body onload="geraEvento()">
+    <audio src="music/jogo.mp3" autoplay loop></audio>
+    <div class="divGame">
+
+        <div class="divImagem">
+
+            <div class="atributos" id="atributo1">
+
+                Velocidade
+
+            </div>
+
+            <div class="atributos" id="atributo2">
+
+                Letra
+
+            </div>
+
+            <div class="atributos" id="atributo3">
+
+                Sonoridade
+
+            </div>
+
+
+            <div class="cartaGrande" id="escolha1" onclick="confirmaCarta()" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+
+
+            </div>
+
+
+            <div class="cartaGrande" id="escolha2" onclick="confirmaCarta()" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+
+
+
+            </div>
+
+            <div class="cartaGrande" id="escolha3" onclick="confirmaCarta()" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+
+
+            </div>
+
+        </div>
+
+        <div class="divDescricao" id="desc">
+
+            <canvas id="myCanvas"></canvas>
+
+            <div id="carta1" class="cartasPequenas" draggable="true" ondragstart="drag(event)">
+
+
+            </div>
+
+
+            <div id="carta2" class="cartasPequenas" draggable="true" ondragstart="drag(event)">
+
+
+            </div>
+
+            <div id="carta3" class="cartasPequenas" draggable="true" ondragstart="drag(event)">
+
+            </div>
+
+
+            <div id="carta4" class="cartasPequenas" draggable="true" ondragstart="drag(event)">
+
+            </div>
+
+            <div class="deck" id="deck">
+                <img src="imgs/moral.png" alt="moral" style="position:absolute;">
+                <div id="moralJogador"></div>
+                <div id="moralIA"> </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
