@@ -1,2 +1,1 @@
-#Play it on:
-##http://rmontalverne.github.io/index
+Web game developed for academic purposes.
